@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CRM",
+    "\\CRM\\Controllers",
+    "\\CRM\\DTO",
+    "\\CRM\\Models"
+  ],
+  "SelectedNode": "\\CRM\\Controllers\\CrmController.cs",
+  "PreviewInSolutionExplorer": false
+}

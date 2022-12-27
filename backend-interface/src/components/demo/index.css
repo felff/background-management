@@ -1,0 +1,314 @@
+.formHome {
+    padding: 20px 20px 0;
+    min-height: 100vh;
+    background-color: rgba(230, 230, 230, 0.233);
+    /* background:no-repeat center url('../../img/bg4.jpg');
+    background-size: cover; */
+}
+
+.formHome .label {
+    color: rgb(100, 100, 100);
+    font-weight: bolder;
+}
+
+.formHome .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.formHome .title .text {
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.formHome .title .butn .E {
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    transition: ease 0.5s;
+}
+
+.formHome .title .butn .E:hover {
+    color: white;
+    background-color: green;
+}
+
+.formHome .title .butn .B {
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(4, 56, 228);
+    transition: ease 0.5s;
+}
+
+.formHome .title .butn .B:hover {
+    color: rgb(4, 56, 228);
+    background-color: white;
+}
+
+.formHome .tour {
+    background-color: rgba(216, 216, 216, 0.356);
+    padding: 15px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formHome .tour .inp {
+    position: relative;
+}
+
+.formHome .tour .inp .fa-magnifying-glass {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    z-index: 99;
+    font-size: 20px;
+    color: rgb(75, 75, 75);
+}
+
+.formHome .tour .inp input {
+    border-radius: 20px;
+    border: 1px solid rgb(197, 197, 197);
+    outline: none;
+    padding: 10px 10px 10px 40px;
+}
+
+.formHome .tour .inp input::-webkit-input-placeholder {
+    font-weight: bold;
+    color: rgb(172, 172, 172);
+}
+
+.formHome .tour .inp input::-webkit-search-cancel-button {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.formHome .tour .inp input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.formHome .tour .sels .sel {
+    position: relative;
+    margin: 10px 10px 10px 20px;
+}
+
+
+.formHome .tour .sels i {
+    position: absolute;
+    top: 9px;
+    left: 6px;
+}
+
+.formHome .tour .sels .sel select {
+    padding: 5px 10px 5px 30px;
+    background-color: rgba(238, 238, 238, 0.507);
+    outline: none;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.formHome .nave {
+    border-bottom: 1px solid rgb(177, 177, 177);
+    padding-bottom: 10px;
+}
+
+.formHome .nave .customers {
+    font-weight: bolder;
+    padding-bottom: 10px;
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.formHome .nave .nb {
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    margin-left: 10px;
+    padding: 0 6px;
+}
+
+.formHome .form table {
+    width: 100%;
+}
+
+.formHome .form table thead tr {
+    background: linear-gradient(90deg, rgba(175, 175, 175, 0.123) 0%, rgba(216, 216, 216, 0.63) 50%, rgb(226, 226, 226) 100%);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 1px 1px 3px;
+}
+
+.formHome .form table thead tr th {
+    padding: 10px 5px;
+    color: rgb(129, 129, 129);
+}
+
+.formHome .form table thead tr th i {
+    font-size: small;
+}
+
+.formHome .form th:nth-child(1) {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.formHome .form th:nth-last-child(1) {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.formHome .form td:nth-child(1) {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.formHome .form td:nth-last-child(1) {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.formHome .form table tbody tr:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 4px 3px 6px;
+    background-color: rgb(255, 255, 255);
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.formHome .form tbody tr td {
+    padding: 10px 10px;
+    height: 100px;
+}
+
+.formHome .form tbody tr td button {
+   border: none;
+   background-color: rgba(70, 70, 70, 0.767);
+   border-radius: 5px;
+   color: white;
+}
+.formHome .form tbody tr td button:hover i {
+    transform: rotate(36deg);
+    transition: 0.5s;
+ }
+
+.formHome .form tbody tr {
+    border-radius: 20px;
+}
+
+.formHome .form tbody tr .No {
+    color: rgb(100, 100, 100);
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .Year {
+    color: rgb(168, 168, 168);
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .Area {
+    color: rgb(0, 67, 155);
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .City {
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .Country {
+    color: rgb(40, 47, 82);
+    font-weight: bolder;
+}
+
+
+.formHome .form tbody tr .Industry {
+    color: rgb(170, 170, 170);
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .CompanyName {
+    color: rgb(0, 0, 0);
+    max-width: 230px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .Telephone {
+    color: rgb(168, 168, 168);
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .CellPhone {
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .Email {
+    font-weight: bolder;
+    color: rgb(212, 0, 0);
+}
+
+
+.formHome .form tbody tr .Fax {
+    font-weight: bolder;
+}
+
+.formHome .form tbody tr .Name {
+    font-weight: bolder;
+    color: black;
+}
+
+.formHome .form tbody tr .JobTitle {
+    font-weight: bolder;
+    color: rgb(175, 175, 175);
+}
+
+.formHome .form tbody tr .Remark {
+    font-weight: bolder;
+    max-width: 200px;
+    color: rgb(175, 175, 175);
+}
+
+
+.formHome .form .pag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1px;
+    border-top: 1px solid rgb(177, 177, 177);
+}
+
+.formHome .form .remark {
+    color: rgb(180, 180, 180);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.formHome .form .pagination li {
+    padding: 15px 25px 0;
+}
+
+.formHome .form .pagination .page-num {
+    text-decoration: none;
+    color: rgb(161, 159, 159);
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.formHome .form .pagination .page-nums {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+.formHome .form .pagination .page-nums:hover,
+.formHome .form .pagination .page-num:hover {
+    color: rgb(66, 66, 243);
+}
+
+.formHome .form .pagination .active {
+    font-size: 1.5em;
+    color: blue;
+}

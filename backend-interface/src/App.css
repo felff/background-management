@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital,wght@1,400;1,900&family=Rubik&display=swap');
+body{
+    font-family: 'Lato', sans-serif;
+    transition: all ease 0.5s;
+}
